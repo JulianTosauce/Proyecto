@@ -60,7 +60,7 @@ public class Bodegas
         bodegafront = new int[max][width];
         int maxCol = 0; 
         
-        // mat de bodega
+        // mat de bodega inicial
         for(int i = 0 ; i < bodega[0].length ; i++){
             for(int j = 0; j < bodega.length;j++){
                 if (bodega[j][i]>maxCol){
